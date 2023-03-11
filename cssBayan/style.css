@@ -3,18 +3,18 @@ body {
   font-family: 'Comic Sans MS';
 }
 
-.cssBayan {
+.bayan {
   padding: 9rem 0;
 }
 
 .container {
   display: block;
-  width: 31.25rem;
+  max-width: 31.25rem;
   padding: 0 1.25rem;
   margin: 0 auto;
 }
 
-.cssBayan__header {
+.bayan__header {
   font-size: 2rem;
   font-weight: 600;
   color: #696969;
@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 
-.cssBayan__list {
+.bayan__list {
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +69,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.cssBayan__list:hover .item__text,
+.bayan__list:hover .item__text,
 .item:has(input:checked) .item__text {
   color: #32221a;
 }
@@ -81,7 +81,7 @@ body {
   opacity: 0;
   background: url('img/icons/eye-slash-regular.svg') center no-repeat;
 }
-.cssBayan__list:hover .item__icon {
+.bayan__list:hover .item__icon {
   opacity: 1;
 }
 
